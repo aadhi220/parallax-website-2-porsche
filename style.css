@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: raleway;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  height: 100vh;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+  transform-style: preserve-3d;
+}
+
+.title {
+  width: 50%;
+  padding: 1%;
+  border-radius: 5px;
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  /* background: rgba(0, 0, 0, 0.368);  */
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, .7); */
+  color: rgb(4, 4, 4);
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
+  /* margin: 5%; */
+}
+
+.title-head {
+  width: 50%;
+  padding: 1%;
+  border-radius: 5px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 1rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  /* background: rgba(0, 0, 0, 0.368);  */
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, .7); */
+  color: rgb(4, 4, 4);
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
+  /* margin: 5%; */
+}
+
+.title-head h2 {
+  text-align: center;
+}
+
+.title h2 {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.underline {
+  border: 1px solid red;
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+.right {
+  justify-content: right;
+}
+
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+
+  /* transform: translateZ(-1px) scale(2);  */
+}
+
+.header {
+  background: url(./img/345268.jpg) center/cover;
+  transform: translateZ(-1px) scale(2);
+}
+
+.bc-1 {
+  background: url(./img/porsche.jpg) center;
+}
+
+.bg-1 {
+  background: url(./img/1930.jpg) center / cover;
+  background-attachment: fixed;
+}
+.bg-2 {
+  background: url(./img/1940.jpg) center / cover;
+  background-attachment: fixed;
+}
+
+.bg-3 {
+  background: url(./img/1950.jpg) center / cover;
+  background-attachment: fixed;
+}
+
+.bg-4 {
+  background: url(./img/1960.jpg) center / cover;
+  background-attachment: fixed;
+}
+.bg-5 {
+  background: url(./img/1970.jpg) center / cover;
+  background-attachment: fixed;
+}
+.bg-6 {
+  background: url(./img/1980.jpg) center / cover;
+  background-attachment: fixed;
+}
+.bg-7 {
+  background: url(./img/1990.jpg) center / cover;
+  background-attachment: fixed;
+}
+.bg-8 {
+  background: url(./img/2000.jpg) center / cover;
+  background-attachment: fixed;
+}
+.bg-9 {
+  background: url(./img/2010.jpg) center / cover;
+  background-attachment: fixed;
+}
+.bg-10 {
+  background: url(./img/2020.jpg) center / cover;
+  background-attachment: fixed;
+}
+/* .bg-11 {
+  background: url(./img/2020.jpg) center / cover;
+  background-attachment: fixed;
+} */
+/* .bg-3 {
+  background: url(./img/1950.jpg) center / cover;
+  background-attachment: fixed;
+}
+.bg-3 {
+  background: url(./img/1950.jpg) center / cover;
+  background-attachment: fixed;
+} */
+
+.progress-bar {
+  width: 15rem;
+  position: absolute;
+  top: 2rem;
+  right: 5rem;
+}
+.bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0px;
+  width: 100%;
+  height: 2rem;
+  position: relative;
+}
+#skill-name {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  text-align: left;
+}
+
+.basebar {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0.4rem;
+  background-color: rgb(8, 8, 8);
+  border-radius: 0.6rem;
+}
+
+.mainbar {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+
+  height: 0.4rem;
+  background-color: rgba(255, 0, 0, 0.952);
+  border-radius: 0.6rem;
+}
+
+.normal {
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  z-index: 2;
+}
+.normal1 {
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+  position: relative;
+  display: flex;
+  background: url(https://cdn1.vectorstock.com/i/1000x1000/72/75/porsche-logo-brand-car-symbol-name-white-design-vector-46127275.jpg)
+    center / cover;
+
+  z-index: 2;
+}
+
+footer {
+  width: 100%;
+  height: 10rem;
+  background-color: black;
+  color: aliceblue;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+#ferd {
+  color: aliceblue;
+}
+
+h1 {
+  width: 90%;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  color: aliceblue;
+  word-spacing: 100vw;
+  text-align: center;
+  text-transform: uppercase;
+  height: fit-content;
+}
+
+.evo {
+  color: red; font-size: 60px;
+}
+#head {
+  transform-style: preserve-3d;
+  transform: translateZ(-0.6px) scale(1.7);
+}
+#head2 {
+  display:block ;
+  font-size: 80px;
+  color: red;
+  font-weight: 900;
+ 
+  transform-style: preserve-3d;
+  transform: translateZ(-0.6px) scale(1.7);
+}
+#head1 {
+   transform-style: preserve-3d;
+  transform: translateZ(-0.6px) scale(1.7);
+  display: none;
+}
+
+.history {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  color: aliceblue;
+  word-spacing: 100vw;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.parallax h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.723);
+}
+
+.parallax:nth-child(1) {
+  align-items: center;
+}
+.parallax:nth-child(1) h1 {
+  text-align: left;
+}
+
+.normal h1 {
+  color: aliceblue;
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
+  font-size: 80px;
+}
+
+::-webkit-scrollbar {
+
+  width: 6px;
+  background: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 0, 0);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Update styles for smaller screens here */
+
+  h1 {
+    width: 90%;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: aliceblue;
+    word-spacing: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+    height: fit-content;
+  }
+  .evo {
+    color: red; font-size: 40px;
+    display: none;
+  }
+
+  #head1 {
+    display:block ;
+    font-size: 40px;
+    color: red;
+    font-weight: 900;
+    margin-top: 9rem;
+  }
+
+  .parallax {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+  
+    justify-content: center;
+    transform-style: preserve-3d;
+  }
+  
+
+}
