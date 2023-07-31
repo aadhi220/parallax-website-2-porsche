@@ -28,23 +28,19 @@
 }
 
 nav {
-background-color: aqua;
-width: 100%;
-position: absolute;
-top: 0 ;
-padding: 1rem 2em;
-display: flex;
-flex-wrap: nowrap;
-justify-content: space-between
-
-
-
+  background-color: aqua;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 1rem 2em;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 nav span {
-  font-size:1.5rem;
-font-weight: 600;
-
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 nav ul {
@@ -54,15 +50,13 @@ nav ul {
 .link {
   text-decoration: none;
   font-weight: 600;
-
 }
 
 .e {
-  background: linear-gradient(to bottom,gold 20%, red 100%);
+  background: linear-gradient(to bottom, gold 20%, red 100%);
   background-clip: text;
-  -webkit-background-clip:text ;
+  -webkit-background-clip: text;
   color: transparent;
- 
 }
 
 .e1 {
@@ -71,7 +65,7 @@ nav ul {
 
 .topnav {
   /* overflow: hidden; */
-  background-color:transparent;
+  background-color: transparent;
   width: 100%;
   position: absolute;
   top: 0;
@@ -81,7 +75,6 @@ nav ul {
   padding-left: 2rem;
   margin-right: 1rem;
   padding-right: 2rem;
-  
 }
 
 .topnav a {
@@ -95,19 +88,16 @@ nav ul {
 }
 
 .e {
-  
 }
 
 .topnav a:hover {
-  
-  color:gold;
+  color: gold;
 }
 
 #active {
   background-color: #0a0a0a25;
   color: rgb(254, 1, 1);
   font-weight: 600;
-  
 }
 
 #active:hover {
@@ -117,7 +107,6 @@ nav ul {
 .topnav .icon {
   display: none;
 }
-
 
 /* The dropdown container */
 .dropdown {
@@ -137,16 +126,14 @@ nav ul {
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-
-
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: black;
   min-width: 160px;
-  
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 99;
 }
 
@@ -169,10 +156,7 @@ nav ul {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-
 }
-
-
 
 .title {
   width: 50%;
@@ -248,10 +232,7 @@ nav ul {
   /* transform: translateZ(-1px) scale(2);  */
 }
 
-
-
 .car {
-
   display: none;
 }
 .header {
@@ -378,7 +359,7 @@ nav ul {
   display: flex;
   /* background: url(https://cdn1.vectorstock.com/i/1000x1000/72/75/porsche-logo-brand-car-symbol-name-white-design-vector-46127275.jpg)
     center / cover; */
-background-color: #000;
+  background-color: #000;
   z-index: 2;
 }
 
@@ -419,27 +400,26 @@ h1 {
 }
 
 .evo {
-  color: rgb(255, 255, 255); font-size: 60px;
-  text-shadow: -1px 1px 0 #000,
-  1px 1px 0 #000,
- 1px -1px 0 #000,
--1px -1px 0 #000;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 #head {
   transform-style: preserve-3d;
   transform: translateZ(-0.6px) scale(1.7);
 }
 #head2 {
-  display:block ;
+  display: block;
   font-size: 80px;
   color: red;
   font-weight: 900;
- 
+
   transform-style: preserve-3d;
   transform: translateZ(-0.6px) scale(1.7);
 }
 #head1 {
-   transform-style: preserve-3d;
+  transform-style: preserve-3d;
   transform: translateZ(-0.6px) scale(1.7);
   display: none;
 }
@@ -476,7 +456,6 @@ h1 {
 }
 
 ::-webkit-scrollbar {
-
   width: 6px;
   background: rgb(0, 0, 0);
 }
@@ -501,20 +480,19 @@ h1 {
     height: fit-content;
   }
   .evo {
-    color: red; font-size: 40px;
+    color: red;
+    font-size: 40px;
     display: none;
   }
 
   #head1 {
-    display:block ;
+    display: block;
     font-size: 40px;
     color: red;
     font-weight: 900;
     margin-top: 9rem;
-     text-shadow: -1px 1px 0 #f2eeee,
-  1px 1px 0 #000,
- 1px -1px 0 #000,
--1px -1px 0 #fafafa;
+    text-shadow: -1px 1px 0 #f2eeee, 1px 1px 0 #000, 1px -1px 0 #000,
+      -1px -1px 0 #fafafa;
   }
 
   .parallax {
@@ -522,16 +500,18 @@ h1 {
     height: 100vh;
     position: relative;
     display: flex;
-  
+
     justify-content: center;
     transform-style: preserve-3d;
   }
-  
+
   .e1 {
-    color:aliceblue;
+    color: aliceblue;
   }
 
-  .lis{display: none;}
+  .lis {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -550,7 +530,6 @@ h1 {
     text-align: right;
   }
 
-
   .title-head {
     width: 90%;
     padding: 1%;
@@ -560,15 +539,14 @@ h1 {
     flex-direction: column;
     align-items: center;
     top: 1rem;
-    
-   
+
     /* background: rgba(0, 0, 0, 0.368);  */
     /* box-shadow: 0 0 8px rgba(0, 0, 0, .7); */
     color: rgb(4, 4, 4);
     text-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
     /* margin: 5%; */
   }
-  
+
   .title-head h2 {
     text-align: center;
   }
@@ -585,96 +563,93 @@ h1 {
     text-align: center;
     text-transform: uppercase;
   }
-  
 
-  
-.title {
-  width: 100%;
-  padding: 1%;
-  border-radius: 5px;
-  position: absolute;
-  top: 1rem;
- left:10px;
-  /* background: rgba(0, 0, 0, 0.368);  */
-  /* box-shadow: 0 0 8px rgba(0, 0, 0, .7); */
-  color: rgb(4, 4, 4);
-  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
-  /* margin: 5%; */
-}
+  .title {
+    width: 100%;
+    padding: 1%;
+    border-radius: 5px;
+    position: absolute;
+    top: 1rem;
+    left: 10px;
+    /* background: rgba(0, 0, 0, 0.368);  */
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, .7); */
+    color: rgb(4, 4, 4);
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
+    /* margin: 5%; */
+  }
 
-.progress-bar {
-  width: 15rem;
-  position: absolute;
-  top: 10rem;
-  left:10px;
-}
-.bar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0px;
-  width: 100%;
-  height: 2rem;
-  position: relative;
-}
-#skill-name {
-  font-size: 15px;
-  font-weight: 400;
-  color: black;
-  text-align: left;
-}
+  .progress-bar {
+    width: 15rem;
+    position: absolute;
+    top: 10rem;
+    left: 10px;
+  }
+  .bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    width: 100%;
+    height: 2rem;
+    position: relative;
+  }
+  #skill-name {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+  }
 
-.basebar {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  height: 0.4rem;
-  background-color: rgb(8, 8, 8);
-  border-radius: 0.6rem;
-}
+  .basebar {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0.4rem;
+    background-color: rgb(8, 8, 8);
+    border-radius: 0.6rem;
+  }
 
-.mainbar {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-width: 0;
-  height: 0.4rem;
-  background-color: rgba(255, 0, 0, 0.952);
-  border-radius: 0.6rem;
-  transition: width 0.5s ease;
-}
+  .mainbar {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0;
+    height: 0.4rem;
+    background-color: rgba(255, 0, 0, 0.952);
+    border-radius: 0.6rem;
+    transition: width 0.5s ease;
+  }
 
-.background {
-  filter: blur(8px);
-  -webkit-filter: blur(5px);
-}
-.car {
-  display: block;
-  width: 90%;
-  overflow: hidden;
-  position: absolute;
-  top: 45%;
+  .background {
+    filter: blur(8px);
+    -webkit-filter: blur(5px);
+  }
+  .car {
+    display: block;
+    width: 90%;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
 
- border: 5px solid rgb(6, 6, 6);
-}
+    border: 5px solid rgb(6, 6, 6);
+  }
 
-.car img{
-width: 100%;
-}
+  .car img {
+    width: 100%;
+  }
 
-
-footer {
-  width: 100%;
-  height: 10rem;
-  background-color: black;
-  color: aliceblue;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1rem;
-  font-size: 12px;
-}
+  footer {
+    width: 100%;
+    height: 10rem;
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    font-size: 12px;
+  }
 }
